@@ -1,0 +1,4 @@
+FROM cmd:v1
+LABEL	NAME="SRIKANTH" \
+	AGE=25 \
+	ROLE="DevOps"
