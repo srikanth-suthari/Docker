@@ -3,4 +3,3 @@ RUN useradd srikanth
 WORKDIR /home/srikanth/app
 USER srikanth
 RUN pwd
-RUN touch sample.txt
