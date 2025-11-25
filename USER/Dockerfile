@@ -1,5 +1,5 @@
 FROM almalinux:9
 RUN useradd srikanth
-WORKDIR ~/app
+WORKDIR /home/srikanth/app
 USER srikanth
 RUN touch sample.txt
