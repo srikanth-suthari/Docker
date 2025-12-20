@@ -1,4 +1,5 @@
 FROM almalinux:9
+#creating a user called srikanth
 RUN useradd srikanth
 WORKDIR /home/srikanth/app
 USER srikanth
